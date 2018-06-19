@@ -6,6 +6,7 @@ This code provides architecture for learning two kinds of tasks:
 
 - Phrase similarity using char level embeddings [1]
 ![siamese lstm phrase similarity](https://cloud.githubusercontent.com/assets/9861437/20479454/405a1aea-b004-11e6-8a27-7bb05cf0a002.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcarsonkahn-volley%2Fdeep-siamese-text-similarity.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcarsonkahn-volley%2Fdeep-siamese-text-similarity?ref=badge_shield)
 
 - Sentence similarity using word level embeddings [2]
 ![siamese lstm sentence similarity](https://cloud.githubusercontent.com/assets/9861437/20479493/6ea8ad12-b004-11e6-89e4-53d4d354d32e.png)
@@ -139,3 +140,7 @@ $ python eval.py --model graph#.pb
 # References
 1. [Learning Text Similarity with Siamese Recurrent Networks](http://www.aclweb.org/anthology/W16-16#page=162)
 2. [Siamese Recurrent Architectures for Learning Sentence Similarity](http://www.aaai.org/Conferences/AAAI/2016/Papers/15Mueller12195.pdf)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcarsonkahn-volley%2Fdeep-siamese-text-similarity.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcarsonkahn-volley%2Fdeep-siamese-text-similarity?ref=badge_large)
